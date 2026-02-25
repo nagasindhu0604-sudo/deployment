@@ -1,9 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
 function Register()
 {
-    const nav=useNavigate()
     const [data,setdata]=useState(
         {
         username:"",
