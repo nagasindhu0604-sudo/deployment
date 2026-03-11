@@ -19,7 +19,7 @@ const change=(e)=>
 const submit =async()=>
 {
     console.log("Before api")
-    const res=await axios.post("http://localhost:8080/reg",data)
+    const res=await axios.post("https://cabsystemsms-iwm5.onrender.com/reg",data)
     alert(res.data)
 }
 
